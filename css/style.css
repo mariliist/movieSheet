@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.movie-card {
+    display: flex;
+    align-items: center;
+    height: 65vh;
+    margin-top: 5rem;
+    background: linear-gradient(to right, rgba(22.75%, 23.53%, 28.24%, 1.99), rgba(22.75%, 23.53%, 28.24%, 0.85)100%), url('../img/background.jpg');
+    background-size: cover;
+}
+
+.movie-poster-container {
+    height: 85%;
+    width: 30%;
+    text-align: right;
+}
+
+.movie-poster {
+    height: 100%;
+    border-radius: 10px;
+    margin-right: 1rem;
+    margin-left: 2rem;
+}
+
+.movie-info-container {
+    height: 85%;
+    width: 70%;
+    color: rgb(239, 239, 239);
+    margin-right: 4rem;
+    margin-left: 2rem;
+}
+
+.movie-info-title {
+    text-transform: capitalize;
+}
+
+.movie-genres {
+    margin-top: 1.2rem;
+
+}
+
+.movie-rating {
+    border: 1px solid #777;
+    color: #777;
+    padding: 0.2rem;
+    margin-right: 1rem;
+}
+
+.movie-duraton {
+    margin-left: 1rem;
+    letter-spacing: 0.1rem;
+
+}
+
+.movie-duraton::before {
+    content: "\2022";
+}
+
+.movie-info-actions {
+    font-size: 1.1rem;
+
+}
+
+.movie-info-actions ul {
+    list-style: none;
+    margin-top: 1rem;
+
+}
+
+.movie-info-actions ul li {
+    display: inline-block;
+    margin-right: 2rem;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(3, 37, 65);
+    border-radius: 50%;
+}
+
+.movie-info-actions ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.movie-info-quote {
+    font-style: italic;
+    color: rgba(218, 217, 217, 0.564);
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.movie-info-overvew-title {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+
+
+.movie-info-people {
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.movie-info-people li {
+    display: inline-block;
+    margin-right: 5rem;
+}
+
+.movie-info-people p:first-child {
+    font-weight: 900;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: #777;
+
+}
+
+footer ul li {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #777;
+}
